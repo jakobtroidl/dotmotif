@@ -31,7 +31,7 @@ setup(
     packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
     classifiers=[],
     install_requires=[
-        "networkx>2.4",
+        "networkx<3.0",
         "numpy",
         "lark-parser",
         "pandas",
